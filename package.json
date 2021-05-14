@@ -1,0 +1,21 @@
+{
+  "name": "mqtt-nodejs-database",
+  "version": "1.0.0",
+  "description": "Project to monitor mqtt topics and save to the database",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel - github.com/Gabrielhsm20",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.2.6",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
